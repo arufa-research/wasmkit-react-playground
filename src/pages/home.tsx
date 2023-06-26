@@ -154,7 +154,7 @@ console.log("final array", outerKeysArray);
               <FontAwesomeIcon icon={active ? faXmark : faBars} />
             </div> */}
           </div>
-          <div className={active ? "sidebar active" : "sidebar"}>
+          <div className={active ? "sidebar active" : "sidebar"}> 
             <Navbar></Navbar>
           {/* <div className="navbar">
             <button
