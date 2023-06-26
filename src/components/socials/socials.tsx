@@ -4,6 +4,7 @@ import {
   faTwitter,
   faDiscord,
   faTelegram,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
 import "./socials.css";
@@ -26,6 +27,11 @@ const HeaderSocials = (props: any) => {
         <div className="social-header-icon ">
           <a target="_blank" href="https://t.me/StakeEasyProtocol">
             <FontAwesomeIcon icon={faTelegram} size="lg" />
+          </a>
+        </div>
+        <div className="social-header-icon ">
+          <a target="_blank" href="https://t.me/StakeEasyProtocol">
+            <FontAwesomeIcon icon={faGithub} size="lg" />
           </a>
         </div>
       </div>
